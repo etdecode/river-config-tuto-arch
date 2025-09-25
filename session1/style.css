@@ -1,0 +1,29 @@
+window {
+    background-color: rgba(43, 48, 59, 0.8);
+    border-bottom: 1px solid rgba(100, 114, 125, 0.5);
+    color: #d8dee9;
+}
+
+#tags button {
+    background-color: transparent;
+    color: #d8dee9;
+    border: none;
+    padding: 0 10px;
+}
+
+#tags button.occupied {
+    color: #81a1c1;
+}
+
+#tags button.focused {
+    color: #88c0d0;
+    border-bottom: 2px solid #88c0d0;
+}
+
+#window {
+    font-weight: bold;
+}
+
+#clock {
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["river/tags"],
+    "modules-center": ["river/window"],
+    "modules-right": ["clock", "tray"],
+    "river/tags": {
+        "num-tags": 9
+    },
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+    "tray": {
+        "spacing": 10
+    }
+}
